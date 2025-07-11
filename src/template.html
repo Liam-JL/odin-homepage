@@ -9,7 +9,10 @@
     <main>
         <header>
             <h1>Ashley Williams</h1>
-            <img src="./shared/images/header-image-small.jpg" alt="Profile picture">
+            <img 
+                alt="Profile picture."
+                srcset="./shared/images/header-image-small.jpg 300w, ./shared/images/header-image-medium.jpg 1200w"
+            >
             <section class="about-section" aria-labelledby="about-me">
                 <h2 id="about-me">About me</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque pariatur laborum eaque laudantium sed, mollitia illo incidunt soluta reprehenderit facilis ullam accusamus amet magni nobis labore, magnam rem dolorem. Eaque?</p>
@@ -89,7 +92,13 @@
                 </li>
             </ul>
         </section>
-        <img src="./shared/images/footer-image-small.jpg" alt="">
+        <img 
+            alt=""
+            srcset="
+            ./shared/images/footer-image-small.jpg 300w, 
+            ./shared/images/footer-image-medium.jpg 1200w, 
+            " 
+            >
     </footer>
 </body>
 </html>
