@@ -1,0 +1,46 @@
+/* Minimal CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, sans-serif;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+    --text-on-light: rgb(15, 15, 15);
+    --text-on-dark: rgb(238, 251, 255);
+    --text-on-tertiary: rgb(238, 251, 255);
+    --tertiary: rgb(34, 113, 179);
+    --background-light: rgb(242, 251, 255);
+    --background-dark: rgb(27, 27, 36);
+    --icon-on-light: rgb(7, 7, 7);
+    --icon-on-dark: rgb(247, 251, 252);
+    --header-on-light: rgb(7, 7, 7);
+    --header-on-dark: rgb(247, 251, 252);
+}
