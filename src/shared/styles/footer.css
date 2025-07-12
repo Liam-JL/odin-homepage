@@ -1,0 +1,43 @@
+.contact-section {
+    background-color: var(--tertiary);
+    color: var(--text-on-tertiary);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.contact-section h2 {
+    color: var(--text-on-tertiary);
+}
+
+.contact-section p {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.contact-section__methods * {
+    font-style: normal;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+
+.contact-section__methods address {
+    margin-bottom: 2rem;
+}
+
+
+
+
+.contact-section__icon-links {
+    display: flex;
+    gap: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+
