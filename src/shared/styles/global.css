@@ -59,7 +59,7 @@ h1 {
   color: var(--text-on-tertiary);
 }
 
-h2 {
+h2, h3 {
   font-size: 3.5rem;
   font-weight: 400;
   letter-spacing: -1px;
