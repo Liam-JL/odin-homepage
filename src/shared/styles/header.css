@@ -2,7 +2,7 @@
     margin: 1rem;
     margin-top: 2rem;
     display: grid;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .hero__upper {
@@ -12,11 +12,9 @@
 
 .hero__title {
     position: absolute;
-    bottom: -20px;
-    left: 20px;
-    width: 90%;
+    bottom: -10px;
+    left: 25px;
     text-shadow: -1px 2px 4px rgba(25, 25, 27, 0.42);
-    margin: 0.5rem;
     line-height: 1.2;
     font-size: 4.5rem;
 }
@@ -25,6 +23,7 @@
     width: 90%;
     height: 35rem;
     object-fit: cover;
+    box-shadow: 2px 9px 31px -10px rgba(0,0,0,0.54);
 }
 
 .hero__about-section {
@@ -43,7 +42,7 @@
 
 .hero__icon-links {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 

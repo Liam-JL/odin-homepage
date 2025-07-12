@@ -39,7 +39,7 @@ ul, ol{
     --text-on-light: rgb(72, 72, 73);
     --text-on-dark: rgb(238, 251, 255);
     --text-on-tertiary: rgb(238, 251, 255);
-    --tertiary: rgb(66, 137, 196);
+    --tertiary: rgb(8, 145, 178);
     --background-light: rgb(242, 251, 255);
     --background-dark: rgb(27, 27, 36);
     --icon-on-light: rgb(7, 7, 7);
@@ -59,7 +59,7 @@ h1 {
   color: var(--text-on-tertiary);
 }
 
-h2 {
+h2, h3 {
   font-size: 3.5rem;
   font-weight: 400;
   letter-spacing: -1px;
