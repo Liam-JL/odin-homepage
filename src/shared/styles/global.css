@@ -12,7 +12,6 @@ html, body {
 }
 
 body {
-  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: system-ui, sans-serif;
 }
@@ -32,15 +31,37 @@ a {
   text-decoration: none;
 }
 
+ul, ol{
+  list-style-type: none;
+}
+
 :root {
-    --text-on-light: rgb(15, 15, 15);
+    --text-on-light: rgb(72, 72, 73);
     --text-on-dark: rgb(238, 251, 255);
     --text-on-tertiary: rgb(238, 251, 255);
-    --tertiary: rgb(34, 113, 179);
+    --tertiary: rgb(66, 137, 196);
     --background-light: rgb(242, 251, 255);
     --background-dark: rgb(27, 27, 36);
     --icon-on-light: rgb(7, 7, 7);
     --icon-on-dark: rgb(247, 251, 252);
     --header-on-light: rgb(7, 7, 7);
     --header-on-dark: rgb(247, 251, 252);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Old Standard TT";
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: var(--text-on-tertiary);
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: var(--header-on-light);
 }
