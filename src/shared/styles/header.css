@@ -12,11 +12,9 @@
 
 .hero__title {
     position: absolute;
-    bottom: -20px;
-    left: 20px;
-    width: 90%;
+    bottom: -10px;
+    left: 25px;
     text-shadow: -1px 2px 4px rgba(25, 25, 27, 0.42);
-    margin: 0.5rem;
     line-height: 1.2;
     font-size: 4.5rem;
 }
@@ -44,7 +42,7 @@
 
 .hero__icon-links {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 
