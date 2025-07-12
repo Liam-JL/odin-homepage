@@ -1,0 +1,50 @@
+.hero {
+    margin: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.hero__upper {
+    justify-items: center;
+    position: relative;
+}
+
+.hero__title {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    width: 90%;
+    text-shadow: -1px 2px 4px rgba(25, 25, 27, 0.42);
+    margin: 0.5rem;
+    line-height: 1.2;
+    font-size: 4.5rem;
+}
+
+.hero__profile-img {
+    width: 90%;
+    height: 35rem;
+    object-fit: cover;
+}
+
+.hero__about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.hero__about-section p {
+    font-size: 1.5rem;
+    color: var(--text-on-light);
+    margin-top: -2rem;
+    padding: 1rem;
+}
+
+.hero__icon-links {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
