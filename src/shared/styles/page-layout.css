@@ -1,0 +1,11 @@
+.background-accent {
+    width: 200%;
+    height: 70vh;
+    background-color: var(--tertiary);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    transform: skewY(-30deg) translateY(-20rem);
+}
+
