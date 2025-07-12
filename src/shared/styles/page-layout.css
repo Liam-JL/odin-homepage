@@ -1,6 +1,6 @@
 .background-accent {
-    width: 200%;
-    height: 70vh;
+    width: 100%;
+    height: 100vh;
     background-color: var(--tertiary);
     position: absolute;
     top: 0px;
