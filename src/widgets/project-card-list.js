@@ -13,7 +13,9 @@ function makeProjectCard(project) {
     const listItem = document.createElement("li");
     listItem.innerHTML = `
         <section class="project-card" aria-labelledby="${project.title}-card">
-            <img class="project-card__screenshot" src="${project.image}"></img>
+            <div class="project-card__screenshot-container">
+                <img class="project-card__screenshot" src="${project.image}"></img>
+            </div>
             <h3 id="${project.title}-card" class="project-card__title">${project.title}</h3>
             <ul class="project-card__icon-links">
                 <li>
