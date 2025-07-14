@@ -25,7 +25,7 @@ main {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 60% 10% auto;
-    box-shadow: 2px 9px 31px -10px rgba(0,0,0,0.54);
+    box-shadow: 2px 9px 20px -10px rgba(0,0,0,0.54);
     max-width: 350px;
     width: 340px;
     height: 500px;

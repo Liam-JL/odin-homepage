@@ -1,0 +1,59 @@
+/* Tablet */
+@media (min-width: 700px) {
+    .background-accent {
+        transform: skewY(-15deg) translateY(-23rem);
+    }
+
+    .hero{
+        background-color: var(--background-light);
+        box-shadow: 2px 9px 20px -10px rgba(0,0,0,0.54);
+        display: block;
+        width: 80%;
+        height: 35rem;
+        margin: auto;
+        margin-top: 8rem;
+        padding: 1rem;
+    }
+    
+    .hero__title {
+        top: -5rem;
+        right: 0px;
+        text-align: right;
+        z-index: 2;
+    }
+
+    .hero__profile-img {
+        width: 350px;
+        height: 400px;
+        float: left;
+        transform: scale(1.2) translateX(-2rem) translateY(-3rem);
+        margin-bottom: -0.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .hero__section-header {
+        text-align: center;
+        position: relative;
+        top: 15%;
+        right: 1rem;
+    }
+
+    .hero p {
+        font-size: 1.6rem;
+        margin-top: 3.5rem;
+    }
+
+
+    .hero__icon-links {
+        display: none;
+    }
+
+    .work-section__project-list {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2.5rem;
+    }
+
+    .project-card {
+        width: 400px;
+    }
+}
