@@ -10,6 +10,7 @@
         display: block;
         width: 80%;
         height: 35rem;
+        min-height: fit-content;
         margin: auto;
         margin-top: 8rem;
         padding: 1rem;
@@ -43,7 +44,6 @@
         margin-top: 3.5rem;
     }
 
-
     .hero__icon-links {
         display: none;
     }
@@ -56,4 +56,47 @@
     .project-card {
         width: 400px;
     }
+
+    footer {
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+        min-height: 800px;
+    }
+
+    .contact-section {
+        max-height: 40rem;
+        align-items: flex-start;
+        gap: 0rem;
+    }
+
+    .contact-section p {
+        font-size: 1.3rem;
+    }
+
+    .contact-section li > svg {
+        display: block;
+        min-width: 34px;
+    }
+
+    .contact-section h2 {
+        align-self: flex-start;
+        margin-bottom: 1rem;
+    }
+
+    .contact-section__icon-links {
+        align-self: flex-start;
+    }
+
+    .footer__img {
+        min-height: 40rem;
+        max-height: 40rem;
+        width: 50%;
+        object-fit: cover;
+        padding-left: 2rem;
+    }
+
+
+    
+
 }
