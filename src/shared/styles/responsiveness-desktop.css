@@ -1,0 +1,9 @@
+@media (min-width: 1000px) { 
+    .hero__icon-links {
+        display: flex;
+    }
+
+    .work-section__project-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

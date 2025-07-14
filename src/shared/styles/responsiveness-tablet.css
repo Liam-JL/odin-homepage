@@ -48,13 +48,22 @@
         display: none;
     }
 
+    .work-section__heading{
+        align-self: flex-start;
+        position: relative;
+        left: 2.5rem;
+    }
+
     .work-section__project-list {
         grid-template-columns: 1fr 1fr;
+        width: 90%;
+        justify-items: center;
         column-gap: 2.5rem;
     }
 
     .project-card {
-        width: 400px;
+        width: 100%;
+        max-width: 600px;
     }
 
     footer {
