@@ -71,13 +71,13 @@
     footer {
         flex-direction: row;
         align-items: center;
+        justify-content: space-around;
         padding: 2rem;
         min-height: 800px;
     }
 
     .contact-section {
         max-height: 40rem;
-        align-items: flex-start;
         gap: 0rem;
     }
 
