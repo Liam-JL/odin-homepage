@@ -1,0 +1,51 @@
+.hero__icon-links svg:hover, .work-section__project-list svg:hover {
+    transform: scale(1.2);
+    fill: var(--tertiary);
+}
+
+.contact-section__icon-links svg:hover {
+    transform: scale(1.2);
+    fill: var(--text-on-tertiary);
+}
+
+svg {
+    transition: transform 0.5s ease-in-out;
+    fill: transform 0.5s ease-in-out;
+}
+
+.background-accent {
+    animation: background-slide-up 2s 1;
+    animation-timing-function: ease-out;
+}
+
+.project-card {
+    transition: transform 0.5s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+
+@keyframes background-slide-up {
+    from {
+        top:-100%;
+    }
+
+    50% {
+        top: 4rem;
+    }
+
+    to {
+        top:0px;
+    }
+
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
