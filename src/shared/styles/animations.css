@@ -1,0 +1,14 @@
+.hero__icon-links svg:hover, .work-section__project-list svg:hover {
+    transform: scale(1.2);
+    fill: var(--tertiary);
+}
+
+.contact-section__icon-links svg:hover {
+    transform: scale(1.2);
+    fill: var(--text-on-tertiary);
+}
+
+svg {
+    transition: transform 0.5s ease-in-out;
+    fill: transform 0.5s ease-in-out;
+}
