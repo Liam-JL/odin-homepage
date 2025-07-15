@@ -60,9 +60,8 @@ main {
 
 .project-card__title {
     grid-column: 1;
-    font-size: 1.6rem;
-    position: relative;
-    left: 30px;
+    font-size: 1.3rem;
+    justify-self: center;
 }
 
 .project-card__icon-links {
@@ -76,12 +75,18 @@ main {
     font-size: 1.1rem;
     grid-column: 1/-1;
     font-weight: 450;
-    padding: 1rem;
     align-self: flex-start;
-    position: relative;
-    bottom: 10px;
-    margin-top: -1rem;
+    line-height: 1.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
+
+
+/* Card responsiveness */
+
+
 
 
 
