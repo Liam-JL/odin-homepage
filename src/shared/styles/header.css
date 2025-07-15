@@ -1,4 +1,4 @@
-.hero {
+    .hero {
     margin: 1rem;
     margin-top: 2rem;
     position: relative;
@@ -26,7 +26,11 @@
     margin-bottom: 2rem;
 }
 
-.hero p {
+.hero__section-header {
+    text-align: center;
+}
+
+.hero__about-me-container p {
     color: var(--text-on-light);
     font-size: 1.4rem;
     margin-top: -1rem;
